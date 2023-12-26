@@ -1,0 +1,12 @@
+*{    padding: 0px;    margin: 0px;    box-sizing: border-box;}:root{    --bg_color_1: rgb(13, 17, 23);    --bg_color_2: rgb(19, 24, 33);}body{    display: flex;    flex-direction: column;    justify-content: center;    align-items: center;    width: 100vw;    min-height: 100vh;    background: var(--bg_color_1);}.div_1{    background: var(--bg_color_2);    border: 1px rgb(48, 54, 61) solid;    border-radius: 10px;    height: 400px;}.div_2{    display: flex;}
+.div_2{ flex-direction: row; }
+
+@media (max-width: 800px){ .div_2{ flex-direction: column; } }
+
+.div_1{ width: 80%; }
+
+@media (min-width: 1400px){ .div_1{ width: 40%; } }
+
+@media (min-width: 1200px){ .div_1{ width: 60%; } }
+
+@media (min-width: 800px){ .div_1{ width: 70%; } }

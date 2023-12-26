@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg_color_1: rgb(13, 17, 23);
+    --bg_color_2: rgb(19, 24, 33);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    background: var(--bg_color_1);
+}
+
+.div_1{
+    background: var(--bg_color_2);
+    border: 1px rgb(48, 54, 61) solid;
+    border-radius: 10px;
+    height: 400px;
+    width: mintg(d: 80%, 1400px: 40%, 1200px: 60%, 800px: 70%, 600px: 90%);
+}
+
+.div_2{
+    display: flex;
+    flex-direction: maxtg(d: row, 800px: column);
+}

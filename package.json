@@ -1,0 +1,12 @@
+{
+  "name": "mini-tangent",
+  "version": "1.0.0",
+  "description": "A CSS 'Compiler' to exclude the necessity to the use of media queries in CSS",
+  "main": "minitg.js",
+  "scripts": {
+    
+  },
+  "keywords": ["minitg", "mini", "tangent", "tg", "mini-tg", "mini-tangent", "mn", "min", "tan"],
+  "author": "Gustavo Strunkis",
+  "license": "ISC"
+}
